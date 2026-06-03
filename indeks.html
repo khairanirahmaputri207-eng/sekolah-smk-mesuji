@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Mahasiswa</title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(to right, #1f4037, #99f2c8);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container{
+      width: 800px;
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .foto img{
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #1f4037;
+    }
+
+    .info h1{
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .info p{
+      font-size: 22px;
+      margin: 15px 0;
+      color: #444;
+    }
+
+    .info span{
+      font-weight: bold;
+      display: inline-block;
+      width: 170px;
+      color: #000;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="foto">
+
+      <!-- FOTO -->
+      <img src="../assets/rani_profil.jpeg" alt="Foto Khairani">
+
+    </div>
+
+    <div class="info">
+
+      <h1>Khairani Rahmaputri</h1>
+
+      <p><span>Nama</span>: Khairani Rahmaputri</p>
+
+      <p><span>NPM</span>: 2313034033</p>
+
+      <p><span>Prodi</span>: Pendidikan Geografi</p>
+
+      <p><span>Universitas</span>: Universitas Lampung</p>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
